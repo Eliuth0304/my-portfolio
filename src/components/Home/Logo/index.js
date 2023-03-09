@@ -12,7 +12,6 @@ const Logo = () => {
         src={Pic}
         alt="JavaScript,  Developer"
         height={'50%'}
-        width={'200px'}
       />
     </div>
   )
