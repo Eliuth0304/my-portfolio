@@ -1,7 +1,12 @@
 import './index.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import {
+  faLinkedin,
+  faGithub,
+  faTelegram,
+  faWhatsapp,
+} from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
   faUser,
@@ -14,7 +19,7 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <h3 className="title-logo">Haider</h3>
+        <h3 className="title-logo">Mr Lim</h3>
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
@@ -42,7 +47,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/shan-e-haider-bukhari-66316526/"
+            href="http://www.linkedin.com/in/lim-say-juan-569438269"
             target="_blank"
             rel="noreferrer"
           >
@@ -51,11 +56,16 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/shanhaider23"
+            href="https://github.com/darkhorse930304"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/Angel123226" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faTelegram} color="#4d4d4e" />
           </a>
         </li>
       </ul>

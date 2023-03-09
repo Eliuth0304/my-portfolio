@@ -32,23 +32,23 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I'm very ambitious full-stack developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          <p style={{ fontSize: '17px' }}>
+            Please call me <b>"Mr. Full Stack"</b> OR <b>"Mr. Blockchain"</b>. I
+            am a hardworking and detail oriented full-stack web architect with 9
+            years of experience. I am as comfortable working with both startups
+            and enterprise solutions and focus on directed growth, technical
+            solutions to reduce bottlenecks and creative strategy.
           </p>
-          <p align="LEFT">
+          <p align="LEFT" style={{ fontSize: '17px' }}>
             Possesses the ability to work in a team environment as well as using
-            own initiative. Good understanding of React, Next.js, TypeScript,
-            JavaScript, Nodejs, C#/.NET HTML/CSS, MySQL, MongoDB, AWS and Git.
+            own initiative. Good understanding of JS/TS, Go, Rust, Python, PHP,
+            Java, PostgreSQL, MongoDB, GraphQL AWS, GCP and Git.
           </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter and son, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          <p style={{ fontSize: '17px' }}>
+            My main Goal is clients' benefit and I would love to work with you
+            to bring your project to fruition!
           </p>
         </div>
-
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
